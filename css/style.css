@@ -541,10 +541,11 @@ p {
 .content-block .person-img {
   height: 150px;
   width: 150px;
-  background: url(../img/reislp.jpg);
+  background: url(../img/reislp.jpg) no-repeat center;
   border-radius: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-size: 130%;
+  background-position: 70% 40%;
 }
 
 /********Header Sec CSS********/
